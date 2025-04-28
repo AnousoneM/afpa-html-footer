@@ -1,0 +1,95 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ** MAIN ** */
+main {
+    /* hauteur de la page */
+    height: 65vh;
+    width: 100vw;
+
+    /* on centre horizontalement */
+    text-align: center;
+
+    /* on change le display de la div pour aligner verticalement le contenu */
+    display: table-cell;
+
+    /* Nous pouvons aligner verticalement le contenu */
+    vertical-align: middle;
+}
+
+main p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* ** FOOTER ** */
+footer {
+    height: 35vh;
+    background-color: lightgrey
+}
+
+footer p {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.content {
+    height: 85%;
+}
+
+.carte,
+.adresse,
+.horaires {
+    /* on change le display pour aligner les divs */
+    display: inline-block;
+    /* on indique au block de se centrer au top du parent */
+    vertical-align: top;
+
+    padding-top: 1rem;
+    width: 32.8%;
+    height: 100%;
+}
+
+/* carte */
+.carte {
+    text-align: center;
+}
+
+.carte iframe {
+    height: 95%;
+    width: 80%;
+    border: 2px grey solid;
+}
+
+/* adresse */
+.logo {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.coordonnees {
+    padding-top: 0.8rem;
+    font-size: 0.7rem;
+    margin-bottom: 0.9rem;
+}
+
+.adresse {
+    text-align: center;
+}
+
+/* horaires */
+.horaires table {
+    margin: 0 auto;
+    font-size: 0.7rem;
+}
+
+.horaires table th {
+    text-align: left;
+    width: 35%;
+}
+
+/* Mentions légales */
+.mentions {
+    font-size: 0.7rem;
+}
